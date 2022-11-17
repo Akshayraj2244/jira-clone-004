@@ -1,0 +1,761 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+section.sidemenu {
+}
+div.maincontainer {
+    height: 100vh;
+    width: 63px;
+    background: rgb(7, 71, 166);
+    position: absolute;
+}
+div.maincontainer:hover {
+    transition: all 0.13s ease-in-out;
+    width: 200px;
+}
+div.content {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+div.content.searchcontainer {
+}
+div.content.searchcontainer img {
+    display: block;
+    width: 100%;
+}
+div.addcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.addcontainer {
+    width: 27px;
+    margin-top: 25px;
+}
+div.addcontainer img {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+#details {
+    position: relative;
+}
+#details div.detailcontainer {
+    height: 100vh;
+    width: 225px;
+    background: rgb(244, 245, 247);
+    border-right: 1px solid rgb(223, 225, 230);
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    left: 63px;
+    padding: 0 28px 0 22px;
+}
+#details h1 {
+    color: rgb(66, 82, 110);
+    font-size: 18px;
+    text-align: center;
+    padding-top: 33px;
+}
+#details p {
+    color: rgb(94, 108, 132);
+    font-size: 15px;
+    text-align: center;
+}
+#details div.maincontent {
+    display: flex;
+    justify-content: space-between;
+    width: 136px;
+    cursor: pointer;
+    padding-top: 20px;
+}
+#details div.maincontent div.boardcontainer {
+    width: 22px;
+    cursor: pointer;
+}
+#details div.maincontent div.boardcontainer img {
+    display: block;
+    width: 100%;
+}
+#details div.maincontent h4 {
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+
+#details div.settings {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    cursor: pointer;
+    padding-top: 20px;
+}
+#details div.settings :hover {
+    background: rgb(235, 236, 240);
+}
+#details div.settingcontainer {
+    width: 22px;
+}
+#details div.settingcontainer img {
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+#details h4 {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+#details div.release {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    padding-top: 80px;
+    cursor: pointer;
+}
+#details div.releasecontainer {
+    width: 22px;
+}
+#details div.releasecontainer img {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+#details h4 {
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+#details div.issue {
+    display: flex;
+    justify-content: space-between;
+    width: 152px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+#details div.issuecontainer {
+    width: 22px;
+}
+#details div.issuecontainer img {
+    display: block;
+    width: 100%;
+}
+#details h4 {
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+#details div.document {
+    display: flex;
+    justify-content: space-between;
+    width: 85px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+#details div.documentcontainer {
+    width: 20px;
+}
+#details div.documentcontainer img {
+    display: block;
+    width: 100%;
+}
+#details div.reports {
+    display: flex;
+    justify-content: space-between;
+    width: 96px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+#details div.reportcontainer {
+    width: 22px;
+}
+#details div.reportcontainer img {
+    display: block;
+    width: 100%;
+}
+#details div.components {
+    display: flex;
+    justify-content: space-between;
+    width: 125px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+#details div.componetscontainer {
+    width: 20px;
+}
+#details div.componetscontainer img {
+    display: block;
+    width: 100%;
+}
+header {
+}
+section.items {
+    padding: 0px 53px 0px 325px;
+}
+section.items p {
+    padding-top: 40px;
+    color: rgb(94, 108, 132);
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+div.topcontainer {
+    position: relative;
+}
+div.buttoncontent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+div.topcontainer h1 {
+    font-size: 25px;
+}
+div.topcontainer a {
+    color: rgb(66, 82, 110);
+    cursor: pointer;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+div.gitrepo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(244, 245, 247);
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+div.githubimage {
+    width: 21px;
+    margin-right: 6px;
+}
+div.githubimage img {
+    display: block;
+    width: 100%;
+}
+input {
+    padding: 8px 22px 9px 33px;
+    height: 31px;
+    width: 10%;
+    border: 1px solid rgb(223, 225, 230);
+    background: rgb(244, 245, 247);
+    transition: 0.1s ease 0s;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+div.serachcontainer {
+    width: 18px;
+    position: absolute;
+    top: 73px;
+    left: 9px;
+}
+div.serachcontainer img {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+div.one {
+    display: flex;
+}
+div.input {
+}
+div.profilecontainer {
+    width: 28px;
+}
+div.profilecontainer img {
+    display: block;
+    width: 100%;
+    border-radius: 55%;
+    cursor: pointer;
+}
+div.profilecontainer img :hover {
+    transition: transform 0.5s ease 0s;
+}
+div.two {
+    display: flex;
+    margin-top: 30px;
+}
+div.childcontainer {
+    width: 28px;
+}
+div.childcontainer img {
+    display: block;
+    width: 100%;
+    border-radius: 55%;
+    cursor: pointer;
+}
+div.boycontainer {
+    width: 28px;
+    margin-right: 45px;
+}
+div.boycontainer img {
+    display: block;
+    width: 100%;
+    border-radius: 55%;
+    cursor: pointer;
+}
+div.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.text h3 {
+    color: rgb(66, 82, 110);
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    font-size: 15px;
+}
+/* div.text button:hover {
+    background: rgb(244, 245, 247);
+    padding: 6px 5px 5px 2px;
+    transition: all 0.1s ease 0s;
+
+} */
+div.text h4 {
+    color: rgb(66, 82, 110);
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+/* div.text h4:hover {
+    background: rgb(244, 245, 247);
+    padding: 6px 5px 5px 2px;
+    transition: all 0.1s ease 0s;
+} */
+div.bottomcontainer {
+    margin-top: 40px;
+}
+div.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+div.firstcards {
+    height: 400px;
+    width: 105%;
+    background: rgb(244, 245, 247);
+    border-radius: 3px;
+}
+div.firstcards :hover {
+    transition: all 0.2s ease 0s;
+    background: rgb(235, 236, 240);
+}
+div.firstcards h3 {
+    color: rgb(66, 82, 110);
+    font-size: 14px;
+    padding: 13px 0 0 13px;
+}
+div.firstcards h3:hover {
+    background: rgb(244, 245, 247);
+}
+div.paragraph {
+    background: rgb(255, 255, 255);
+    height: 22%;
+    width: 98%;
+    margin: 20px 0px 0px 4px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+div.paragraph h5 {
+    padding: 13px 0px 0px 15px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    /* color: rgb(66, 82, 110); */
+}
+div.firstimages {
+    display: flex;
+    padding: 27px 17px 13px 17px;
+}
+div.arcivecontainer {
+    width: 15px;
+}
+div.arcivecontainer img {
+    display: block;
+    width: 100%;
+}
+div.orangearrow {
+    margin-left: 5px;
+    width: 20px;
+}
+div.orangearrow img {
+    display: block;
+    width: 100%;
+}
+div.highestcontent {
+    background: rgb(255, 255, 255);
+    height: 24%;
+    width: 98%;
+    margin: 5px 0px 0px 4px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+div.highestcontent h5 {
+    padding: 13px 0px 0px 15px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+div.secondimages {
+    display: flex;
+    padding: 19px 17px 13px 17px;
+}
+div.arcivecontainer {
+    width: 15px;
+}
+div.arcivecontainer img {
+    display: block;
+    width: 100%;
+}
+div.orangearrow {
+    margin-left: 5px;
+    width: 20px;
+}
+div.orangearrow img {
+    display: block;
+    width: 100%;
+}
+div.secondcards {
+    height: 400px;
+    width: 105%;
+    background: rgb(244, 245, 247);
+    border-radius: 3px;
+}
+div.secondcards :hover {
+    transition: all 0.2s ease 0s;
+    background: rgb(235, 236, 240);
+}
+div.secondcards h3 {
+    color: rgb(66, 82, 110);
+    font-size: 14px;
+    padding: 13px 0 0 13px;
+}
+div.secondcards h3:hover {
+    background: rgb(244, 245, 247);
+}
+div.development {
+    background: rgb(255, 255, 255);
+    height: 24%;
+    width: 98%;
+    margin: 20px 0px 0px 4px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+div.development h5 {
+    padding: 13px 0px 0px 15px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+div.fullcontent {
+    display: flex;
+}
+div.thirdimages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 17px 13px 17px;
+}
+div.arcivecontainer {
+    width: 15px;
+}
+div.arcivecontainer img {
+    display: block;
+    width: 100%;
+}
+div.redarrow {
+    margin-left: 5px;
+    width: 20px;
+}
+div.redarrow img {
+    display: block;
+    width: 100%;
+}
+div.gabencontainer {
+    width: 23px;
+}
+div.gabencontainer img {
+    display: block;
+    width: 100%;
+    border-radius: 55%;
+}
+div.trackcontent {
+    background: rgb(255, 255, 255);
+    height: 25%;
+    width: 98%;
+    margin: 5px 0px 0px 4px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+div.trackcontent h5 {
+    padding: 13px 0px 0px 15px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    /* color: rgb(66, 82, 110); */
+}
+div.fourthimages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 17px 13px 17px;
+}
+div.arcivecontainer {
+    width: 15px;
+}
+div.arcivecontainer img {
+    display: block;
+    width: 100%;
+}
+div.redarrow {
+    margin-left: 5px;
+    width: 20px;
+}
+div.redarrow img {
+    display: block;
+    width: 100%;
+}
+div.thirdcards {
+    height: 400px;
+    width: 105%;
+    background: rgb(244, 245, 247);
+    border-radius: 3px;
+}
+div.thirdcards :hover {
+    transition: all 0.2s ease 0s;
+    background: rgb(235, 236, 240);
+}
+div.thirdcards h3 {
+    color: rgb(66, 82, 110);
+    font-size: 14px;
+    padding: 13px 0 0 13px;
+}
+div.thirdcards h3:hover {
+    background: rgb(244, 245, 247);
+}
+div.progress {
+    background: rgb(255, 255, 255);
+    height: 22%;
+    width: 98%;
+    margin: 20px 0px 0px 4px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+div.progress h5 {
+    padding: 9px 0px 0px 11px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+div.fifthimages {
+    display: flex;
+    padding: 17px 17px 13px 17px;
+}
+div.arcivecontainer {
+    width: 15px;
+}
+div.arcivecontainer img {
+    display: block;
+    width: 100%;
+}
+div.redarrow {
+    margin-left: 5px;
+    width: 20px;
+}
+div.redarrow img {
+    display: block;
+    width: 100%;
+}
+
+div.singlecontent {
+    background: rgb(255, 255, 255);
+    height: 22%;
+    width: 98%;
+    margin: 5px 0px 0px 4px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+div.singlecontent h5 {
+    padding: 13px 0px 0px 15px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+div.secondcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+div.sixthimages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 17px 13px 17px;
+}
+div.arcivecontainer {
+    width: 15px;
+}
+div.arcivecontainer img {
+    display: block;
+    width: 100%;
+}
+div.redarrow {
+    margin-left: 5px;
+    width: 20px;
+}
+div.redarrow img {
+    display: block;
+    width: 100%;
+}
+div.issuecontent {
+    background: rgb(255, 255, 255);
+    height: 20%;
+    width: 98%;
+    margin: 5px 0px 0px 4px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+div.issuecontent h5 {
+    padding: 13px 0px 0px 15px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+div.seventhimages {
+    display: flex;
+    padding: 17px 17px 13px 17px;
+}
+div.arcivecontainer {
+    width: 15px;
+}
+div.arcivecontainer img {
+    display: block;
+    width: 100%;
+}
+div.redarrow {
+    margin-left: 5px;
+    width: 20px;
+}
+div.redarrow img {
+    display: block;
+    width: 100%;
+}
+div.fourthcards {
+    height: 400px;
+    width: 105%;
+    background: rgb(244, 245, 247);
+    border-radius: 3px;
+}
+div.fourthcards :hover {
+    transition: all 0.2s ease 0s;
+    background: rgb(235, 236, 240);
+}
+div.fourthcards h3 {
+    color: rgb(66, 82, 110);
+    font-size: 14px;
+    padding: 13px 0 0 13px;
+}
+div.fourthcards h3:hover {
+    background: rgb(244, 245, 247);
+}
+div.done {
+    background: rgb(255, 255, 255);
+    height: 22%;
+    width: 98%;
+    margin: 20px 0px 0px 4px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+div.done h5 {
+    padding: 13px 0px 0px 15px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+div.eightimages {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 17px 13px 17px;
+}
+div.arcivecontainer {
+    width: 15px;
+}
+div.arcivecontainer img {
+    display: block;
+    width: 100%;
+}
+div.redarrow {
+    margin-left: 5px;
+    width: 20px;
+}
+div.redarrow img {
+    display: block;
+    width: 100%;
+}
+div.description {
+    background: rgb(255, 255, 255);
+    height: 24%;
+    width: 98%;
+    margin: 5px 0px 0px 4px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+div.description h5 {
+    padding: 13px 0px 0px 15px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+div.ninethimages {
+    display: flex;
+    padding: 17px 17px 13px 17px;
+}
+div.arcivecontainer {
+    width: 15px;
+}
+div.arcivecontainer img {
+    display: block;
+    width: 100%;
+}
+div.redarrow {
+    margin-left: 5px;
+    width: 20px;
+}
+div.redarrow img {
+    display: block;
+    width: 100%;
+}
